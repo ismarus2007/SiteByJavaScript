@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+body {
+    font-family: 'Oswald';
+    background-image: url("https://i.redd.it/5yhsmfaaft871.jpg");
+    backdrop-filter: blur(10px);
+    background-repeat: no-repeat;
+    color: #ffffff;
+}
+
+#aboutme {
+    border: 0px black solid;
+    border-radius: 10px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    background-color: #434445;
+}
+
+.header {
+    transform: translate(-20px,0px);
+}
+
+.info {
+    transform: translate(10px,0px);
+}
+
+#window {
+    border: 5px solid #ffffff;
+    color: #000000;
+    width: 100px;
+    transform: translate(0px,-500px);
+}

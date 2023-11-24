@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="style_login_page.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="form">
+            <h1>Log In</h1>
+            <form action="" method="get">
+                <input 
+                type="text"
+                id="login"
+                name="login"
+                placeholder="Login"><br>
+
+                <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Password">
+            </form>
+            <button id="LoginButton" onclick="CheckPassword()">Log In</button>
+            <h2 id="TextCheckPassword"></h2>
+        </div>
+        <script src="script_login_page.js"></script>
+    </body>
+</html>
